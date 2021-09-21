@@ -1,15 +1,20 @@
-import {Header} from './components/header';
-import {Sidebar} from './components/sidebar';
-import {TopImgContainer} from './components/top-img-container';
-import './App.css';
-
+import { Header } from './components/header';
+import { SidebarL } from './components/sidebarL';
+import { SidebarR } from './components/sidebarR';
+import { TopImgContainer } from './components/top-img-container';
+import { MainContainer } from './components/main-container';
+import './App.scss';
 
 function App() {
-  return (
+return (
     <div className="App">
         <Header />
-        <Sidebar />
-        <TopImgContainer />
+        <SidebarL />
+        <main>
+            <TopImgContainer />
+            <MainContainer />
+        </main>
+        <SidebarR />
     </div>
   );
 }

@@ -18,16 +18,17 @@ nav {
     top: 90px;
     padding: 20px 20px 0 20px;
     box-sizing: border-box;
-  }
-  .l-sidebar ul {
-    width: 60px;
-  }
-  .l-sidebar li {
-    color: #282e35;
-    margin-bottom: 40px;
+    ul{
+      width: 60px;
+    }
+    li{
+      color: #282e35;
+      margin-bottom: 40px;
+      &:hover{
+        color: #1cc0be;
+        cursor: pointer;
+      }
+    }
   }
   
-  .l-sidebar li:hover {
-    color: #1cc0be;
-    cursor: pointer;
-  }
+  

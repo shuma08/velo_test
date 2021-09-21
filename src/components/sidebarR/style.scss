@@ -1,0 +1,33 @@
+
+nav {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+.r-sidebar {
+    background: #ffff;
+    height: calc(100% - 340px);
+    width: 290px;
+    position: absolute;
+    right: 0;
+  }
+  .r-sidebar nav {
+    height: 600px;
+  }
+  .r-sidebar div:first-child {
+    margin-left: 40px;
+  }
+  .r-sidebar ul {
+    height: 100%;
+  }
+  
+  .r-sidebar li {
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px 30px;
+  }
+  .r-sidebar img {
+    margin-right: 15px;
+  }
