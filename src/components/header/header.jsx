@@ -1,9 +1,7 @@
 import './style.scss';
 import velo from '../logos/velo2.png';
-import profilePhoto from '../logos/blank-profile-picture.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPowerOff } from '@fortawesome/free-solid-svg-icons';
-
+import { SearchPanel } from '../search_panel';
+import { Profile } from '../profile';
 
 const Header = () => {
 return (
