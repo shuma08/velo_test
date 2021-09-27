@@ -1,1 +1,0 @@
-export {default as TopImgContainer} from './topImgContainer'
