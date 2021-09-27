@@ -28,7 +28,7 @@ const SidebarR = () => {
                 </div>
             </nav>
             <div class="chat-search">
-                <SearchPanel search={{ name: 'Chat with' }}/>
+                <SearchPanel name="Chat with" />
             </div>
         </aside>
     );

@@ -7,7 +7,7 @@ const SearchPanel = (props) => {
             <span className="bar"></span>
             <div className="autocom-box">
             </div>
-            <label for="search">{props.search.name} </label>
+            <label for="search">{props.name} </label>
         </div>
     );
 };

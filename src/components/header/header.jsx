@@ -11,7 +11,7 @@ return (
                 <img src={velo} alt="Velo" />
             </div>
             <div className="navigation-panel">
-                <SearchPanel search={{ name: 'Search places' }}/>
+                <SearchPanel name="Search places" />
                 <Profile />
             </div>
         </div>
