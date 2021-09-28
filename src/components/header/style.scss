@@ -1,0 +1,67 @@
+
+  header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+  }
+
+.top-panel {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #f2f2f2;
+  }
+  .velo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    background-color: #1bbfbe;
+      img {
+        width: 50px;
+        padding: 20px;
+    }
+  }
+ 
+  .navigation-panel {
+    width: calc(100% - 59px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    box-sizing: border-box;
+  }
+  
+.profile {
+    display: flex;
+    align-items: center;
+    color: #dcdcdc;
+      input {
+        display: none;
+        cursor: pointer; 
+    }
+    p {
+      padding: 10px;
+    }
+    label:hover {
+      color: #1bbfbe;
+      cursor: pointer;
+        &:active{
+          color: red; 
+      }
+    }
+  }
+  .fa-power-off {
+    padding: 5px;
+  }
+  #profile-photo {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .username {
+    color: black;
+    margin: 0 12px;
+  }  
