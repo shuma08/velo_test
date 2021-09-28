@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenAlt, faGlobeAmericas, faPaperclip, faBox, faCog } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
