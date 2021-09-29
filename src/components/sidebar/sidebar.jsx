@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
       <aside class="l-sidebar">
           <nav>
-              <div className="ul-container-top">
+              <div className="icon-container-top">
                   <ul>
                       <li><FontAwesomeIcon icon={faPenAlt} size='lg'/></li>
                       <li><FontAwesomeIcon icon ={faHeart} size='lg'/></li>
@@ -15,7 +15,7 @@ const Sidebar = () => {
                       <li><FontAwesomeIcon icon={faPaperclip} size='lg'/></li>
                   </ul>
               </div>
-              <div className="ul-container-bottom">
+              <div className="icon-container-bottom">
                   <ul>
                       <li><FontAwesomeIcon icon={faBox} size='lg'/></li>
                       <li><FontAwesomeIcon icon={faCog} size='lg'/></li>
