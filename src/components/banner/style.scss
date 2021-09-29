@@ -1,10 +1,9 @@
 .top-img-container {
     position: relative;
     margin-top: 90px;
-      @media only screen and (max-width: 375px) {
-         margin-top: 150px;
-    }
-
+        @media only screen and (max-width: 375px) {
+          margin-top: 150px;
+        }
   };
 
   .background-img {
@@ -12,16 +11,19 @@
     overflow: hidden;
     height: 250px;
     width: 100%;
-        img {
-            position: relative;
-            width: 100%;   
-              @media only screen and (max-width: 768px) {
-                height: 100%;
-                top: 0;  
+      img {
+          position: relative;
+          width: 100%;   
+            @media only screen and (max-width: 768px) {
+              height: 100%;
+              top: 0;  
             }
-
+              @media only screen and (max-width: 662px) {
+                width: auto;
+              }
         }
   };
+
   .location {
     display: flex;
     position: absolute;
@@ -31,17 +33,17 @@
     align-items: center;
       @media only screen and (max-width: 768px) {
         font-size: 10px;
-    }
+      }
       @media only screen and (max-width: 375px) {
         left: 30px;
         font-size: 10px;
-    }
-
+      }
   };
 
   .marker {
       padding-right: 15px;
   }
+
   .r-box-container {
     display: flex;
     position: absolute;
@@ -49,7 +51,7 @@
     right: 0px;
       @media only screen and (max-width: 768px)  {
         display: block;
-    }
+      }
         p {
             margin: 0;  
         }
@@ -70,16 +72,15 @@
       &.blue {
         background: rgba(27, 191, 190, 0.5);
       }
-  }
+  };
 
   .logo {
     margin-bottom: 10px;
   };
 
   @media only screen and (max-width: 768px)  {
- 
     .yellow, .blue {
           height: 125px;
       }
-  }
+  };
   

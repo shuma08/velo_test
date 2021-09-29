@@ -18,7 +18,8 @@
                 width: 250px;
                 left: 0; 
             }
-    }
+    };
+
     label {
         position: absolute;
         pointer-events: none;
@@ -28,7 +29,7 @@
         transition: 0.2s ease all;
         padding-left: 8px;  
     }
-  }
+  };
   
   .bar {
     position: relative;
@@ -44,7 +45,7 @@
             background: #1cc0be;
             transition: 0.2s ease all;    
         }
-  }
+  };
   
   .autocom-box {
     background: #f2f2f2;
@@ -64,7 +65,7 @@
                     cursor: pointer;
             }   
         }
-  }
+  };
 
   .active .autocom-box {
     opacity: 1;
@@ -73,14 +74,14 @@
             display: block;
             pointer-events: auto; 
         }
-  }
-  @media only screen and (max-width: 600px) {
-      .search-container {
-          width: 105px;
-          font-size: 11px;
-          input {
-              width: 95px;
-          }
-      }
-      
-  }
+  };
+
+  @media only screen and (max-width: 767px) {
+    .search-container {
+        width: 105px;
+        font-size: 11px;
+        input {
+            width: 95px;
+        }
+    }
+  };
