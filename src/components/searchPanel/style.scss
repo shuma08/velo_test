@@ -9,15 +9,15 @@
         background: none;
         outline: none;
         padding-left: 10px;
-            &:focus ~ label {
-                font-size: 10px;
-                top: -10px;
-                color: #1bbfbe;  
-            }  
-            &:focus ~ .bar:before{
-                width: 250px;
-                left: 0; 
-            }
+        &:focus ~ label {
+            font-size: 10px;
+            top: -10px;
+            color: #1bbfbe;  
+        }  
+        &:focus ~ .bar:before{
+            width: 250px;
+            left: 0; 
+        }
     };
 
     label {
@@ -35,16 +35,16 @@
     position: relative;
     display: block;
     width: 250px;
-        &:beore {
-            content: "";
-            height: 2px;
-            width: 0;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            background: #1cc0be;
-            transition: 0.2s ease all;    
-        }
+    &:beore {
+        content: "";
+        height: 2px;
+        width: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #1cc0be;
+        transition: 0.2s ease all;    
+    }
   };
   
   .autocom-box {
@@ -52,28 +52,28 @@
     border-radius: 3px;
     opacity: 0;
     pointer-events: none;
-        li {
-            list-style: none;
-            padding: 8px 12px;
-            border-radius: 3px;
-            color: #121920;
-            display: none;
-            font-size: 15px;
-            pointer-events: none;
-                &:hover{
-                    background: #1bbfbe;
-                    cursor: pointer;
-            }   
-        }
+    li {
+        list-style: none;
+        padding: 8px 12px;
+        border-radius: 3px;
+        color: #121920;
+        display: none;
+        font-size: 15px;
+        pointer-events: none;
+        &:hover{
+            background: #1bbfbe;
+            cursor: pointer;
+        }   
+    }
   };
 
   .active .autocom-box {
     opacity: 1;
     pointer-events: auto;
-        li {
-            display: block;
-            pointer-events: auto; 
-        }
+    li {
+        display: block;
+        pointer-events: auto; 
+    }
   };
 
   @media only screen and (max-width: 767px) {
