@@ -18,9 +18,9 @@
     text-align: center;
     width: 90px;
     background-color: #1bbfbe;
-      img {
-        width: 50px;
-        padding: 20px;
+    img {
+      width: 50px;
+      padding: 20px;
     }
   }
  
@@ -37,9 +37,9 @@
     display: flex;
     align-items: center;
     color: #dcdcdc;
-      input {
-        display: none;
-        cursor: pointer; 
+    input {
+      display: none;
+      cursor: pointer; 
     }
     p {
       padding: 10px;
@@ -47,8 +47,8 @@
     label:hover {
       color: #1bbfbe;
       cursor: pointer;
-        &:active{
-          color: red; 
+      &:active {
+        color: red; 
       }
     }
   }
@@ -65,3 +65,13 @@
     color: black;
     margin: 0 12px;
   }  
+  @media only screen and (max-width: 767px) {
+    #profile-photo {
+      width: 50px;
+      height: 50px;
+    }
+    .username {
+      font-size: 10px;
+    }
+    
+  }
