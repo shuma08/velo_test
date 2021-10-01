@@ -1,6 +1,6 @@
 import { Header } from './components/header';
 import { Sidebar } from './components/sidebar';
-import { MainContainer } from './mainContainer/index';
+import { MainContainer } from './mainContainer';
 import './App.scss';
 
 function App() {
