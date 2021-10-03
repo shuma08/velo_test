@@ -1,0 +1,42 @@
+.upper-box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .upper-block .img-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .upper-block-img {
+    width: 100%;
+    height: 14vw;
+  }
+  .upper-block {
+    width: calc((100% - (20px * 2)) / 3);
+    background: white;
+    margin-bottom: 20px;
+  }
+  
+  .upper-block > div {
+    margin: 0;
+    width: 100%;
+  }
+  
+  .bottom-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    p {
+        margin: 0;
+  
+    }
+  }
+  
