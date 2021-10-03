@@ -1,0 +1,21 @@
+.upper-conteiner {
+    display: flex;
+    justify-content: space-between;
+    input {
+        appearance: none;
+        &:checked ~ label {
+            color: #1bbfbe;
+            cursor: pointer; 
+        } 
+    }
+    .type-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+  }
+
+  label {
+    cursor: pointer;
+  }
+ 
